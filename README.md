@@ -4,7 +4,7 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 ## Resumo do lab Microsoft Azure - Localizando Serviços por Categoria
 
 ### O que é computação em nuvem?
-É o fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet (“a nuvem”) para oferecer inovações mais rápidas, recursos flexíveis e economias de escala.
+* É o fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet (“a nuvem”) para oferecer inovações mais rápidas, recursos flexíveis e economias de escala.
 
 ### Diferenças entre Nuvem Privada, Nuvem Pública e Nuvem Híbrida
 * Nuvem Privada: Ambiente 100% físico, alocado exclusivamente para uma empresa/cliente, de responsabilidade total da empresa e sem acesso externo.
@@ -12,7 +12,7 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 * Nuvem Híbrida: Mescla utilização de serviços em nuvem privada e pública, trazendo maior flexibilidade.
 
 ### Modelo Baseado em Consumo
-Provedores de nuvem operam em modelo baseado no consumo, usuários pagam apenas o que utilizam. Assim, podemos ter uma melhor previsão de custos e a cobrança é feita com base no uso real.
+* Provedores de nuvem operam em modelo baseado no consumo, usuários pagam apenas o que utilizam. Assim, podemos ter uma melhor previsão de custos e a cobrança é feita com base no uso real.
 
 ## Benefícios da nuvem
 
@@ -47,3 +47,40 @@ Provedores de nuvem operam em modelo baseado no consumo, usuários pagam apenas 
 ### Gerenciabilidade
 * Automação de tarefas: A nuvem simplifica o gerenciamento da infraestrutura, automatizando tarefas como provisionamento de recursos e configuração de sistemas.
 * Foco no negócio: Ao automatizar tarefas repetitivas, as equipes de TI podem se concentrar em atividades que agregam mais valor ao negócio.
+
+## Tipos de serviços de nuvem
+
+### IaaS (Infrastructure as a Service)
+* O que é: O IaaS fornece os componentes básicos da computação, como servidores, armazenamento e redes, sob demanda. É como alugar um data center virtual.
+* Quem controla: O cliente tem alto nível de controle sobre a infraestrutura, podendo escolher o sistema operacional, software e configurações.
+* Exemplo: Amazon EC2, Microsoft Azure Virtual Machines, Google Compute Engine.
+* Quando usar: Ideal para empresas que precisam de grande flexibilidade e controle sobre o ambiente de TI, como desenvolvedores, empresas de hospedagem e startups.
+
+### PaaS (Platform as a Service)
+* O que é: O PaaS oferece uma plataforma completa para desenvolvimento e hospedagem de aplicativos, incluindo ferramentas, frameworks e serviços de banco de dados.
+* Quem controla: O cliente se concentra no desenvolvimento do aplicativo, enquanto o provedor cuida da infraestrutura e das plataformas subjacentes.
+* Exemplo: Heroku, Google App Engine, Microsoft Azure App Service.
+* Quando usar: Indicado para desenvolvedores que querem acelerar o desenvolvimento de aplicativos, sem se preocupar com a gestão da infraestrutura.
+
+### SaaS (Software as a Service)
+* O que é: O SaaS fornece aplicativos completos via internet, como e-mail, CRM, ERP e ferramentas de colaboração.
+* Quem controla: O cliente acessa o software através de um navegador, sem precisar instalar nada localmente.
+* Exemplo: Google Workspace, Microsoft 365, Salesforce.
+* Quando usar: Ideal para empresas que buscam soluções prontas para uso e querem reduzir custos com software e hardware.
+
+### Qual tipo de serviço em nuvem melhor se adapta às suas necessidades? Considere fatores como:
+* Nível de controle: Quanto controle você precisa sobre a infraestrutura e os aplicativos?
+* Complexidade: Qual o nível de complexidade dos seus aplicativos?
+* Orçamento: Qual é o seu orçamento para investir em tecnologia?
+* Agilidade: Qual a velocidade com que você precisa colocar seus aplicativos em produção?
+
+### Comparação de serviços de nuvem
+#### IaaS
+* Maior flexibilidade
+* Cliente configura e gerencia o hardware para o aplicativo
+#### PaaS
+* Focado nod esenvolvimento de aplicativos
+* O gerenciamento de plataforma é feito pelo provedor da nuvem
+#### SaaS
+* Modelo de preço de pagamento conforme o uso
+* Os usuários pagam pelo software que utilizam em modelo de assinatura
